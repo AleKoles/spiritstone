@@ -1,22 +1,30 @@
 import React from 'react';
-import Diamond from '../assets/diamond.jpg';
+import { PiHandshakeLight } from "react-icons/pi";
+import { GiGems } from "react-icons/gi";
+import { BsGem } from "react-icons/bs";
+
+
+
 
 const About = () => {
   return (
-    <div className='w-full bg-white py-16 px-4' id="about">
-      <div className='max-w-[1240px] mx-auto grid md:grid-cols-2'>
-        
-        <div className='flex flex-col justify-center'>
-          <p className='text-theme-yellow font-bold '>Lorem ipsum</p>
-          <h1 className='md:text-4xl sm:text-3xl text-2xl font-bold py-2'>Lorem</h1>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum
-            molestiae delectus culpa hic assumenda, voluptate reprehenderit
-            dolore autem cum ullam sed odit perspiciatis. Doloribus quos velit,
-            eveniet ex deserunt fuga?
-          </p>
-          <button className='bg-black text-theme-yellow w-[200px] rounded-full font-medium my-6 mx-auto md:mx-0 py-3'>Get Started</button>
-        </div>
+    <div className='w-full bg-white py-24 px-4' id="about">
+      <div className='max-w-7xl w-full border-y-4 border-white mx-auto flex gap-12 flex-col'>
+        <h2 class="w-full text-center text-3xl sm:text-4xl cormorant font-bold">A gem cutting family business since 1995</h2>
+        <div className='w-full flex grid grid-cols-1 md:grid-cols-3 gap-8 items-srtrt justify-between'>
+          <div className="flex flex-col gap-2 items-center">
+            <BsGem size={45} className="text-theme-blue2"/>
+            <p className='text-2xl text-center py-2'>Deep understanding of each gemstone's intricacies</p>
+          </div>
+          <div className="flex flex-col gap-2 items-center"> 
+            <GiGems size={45} className="text-theme-blue2"/>
+            <p className='text-2xl text-center py-2'>An extensive selection available for your order</p>
+          </div>
+          <div className="flex flex-col gap-2 items-center">
+            <PiHandshakeLight size={45} className="text-theme-blue2"/>
+            <p className='text-2xl text-center py-2'>Close collaboartion  with companies and individual clients with a personal touch</p>
+          </div>
+          </div>
       </div>
     </div>
   );
