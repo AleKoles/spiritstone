@@ -3,10 +3,11 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'theme-beige': '#f7f6f0',
-        'theme-blue': '#e9f4f5',
-        'theme-yellow': '#f3993f',
-        'theme-gray': '#304351',
+        'theme-blue1': '#74B4CE',
+        'theme-blue2': '#44718B',
+        'theme-gray1': '#EAE7E9',
+        'theme-gray2': '#7C8494',
+        
       },
     },
   },
