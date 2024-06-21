@@ -34,8 +34,8 @@ const Hero = () => {
         </video>
         <div class="absolute bg-black/20 z-20 bottom-0 left-0 h-full w-full flex flex-col justify-end items-center">
           <div class="text-white flex flex-col gap-8 px-4 w-full sm:w-1/2 pb-4 sm:pb-8 xl:pb-16">
-            <h2 class="cormorant text-3xl sm:text-4xl text-center">SpiritStone</h2>
-            <p class="text-center text-sm sm:text-base">Making Elegance through Artistry</p>
+            <h1 class="cormorant text-5xl sm:text-6xl text-center">SpiritStone</h1>
+            <p class="text-center text-base sm:text-lg">Making Elegance through Artistry</p>
             <Link class="rounded-full uppercase bg-white text-theme-blue2 w-fit px-4 py-2 mx-auto cursor-pointer hover:bg-theme-blue1 hover:text-white" to="contact" spy={true} smooth={true} offset={50} duration={500}>Contact us</Link>
           </div>
         </div>
