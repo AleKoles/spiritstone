@@ -1,10 +1,10 @@
 import React from 'react';
 import About from './components/About';
-import Cards from './components/Cards';
+import Gallery from './components/Gallery';
 import Footer from './components/Footer';
 import Hero from './components/Hero';
 import Navbar from './components/Navbar';
-import Newsletter from './components/Newsletter';
+import Clients from './components/Clients';
 
 function App() {
   return (
@@ -12,7 +12,8 @@ function App() {
       <Navbar />
       <Hero />
       <About />
-      <Cards />
+      <Gallery />
+      <Clients />
       <Footer />
     </div>
   );
