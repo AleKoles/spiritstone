@@ -25,13 +25,14 @@ const Navbar = () => {
           <li className='group relative hover:text-black duration-150 ease-in-out tracking-wide cursor-pointer'><Link to="clients" spy={true} smooth={true}  duration={500}>Clients</Link><span class="absolute bottom-0 left-0 w-0 group-hover:w-full border-t-2 border-theme-blue1 transition-all duration-150"></span></li>
           <li className='group relative hover:text-black duration-150 ease-in-out traking-wide cursor-pointer'><Link to="contact" spy={true} smooth={true}  duration={500}>Contact</Link><span class="absolute bottom-0 left-0 w-0 group-hover:w-full border-t-2 border-theme-blue1 transition-all duration-150"></span></li>
         </ul>
-        <div onClick={handleNav} className='block md:hidden'>
+        <div onClick={handleNav} className='block md:hidden z-50'>
             {nav ? <AiOutlineClose size={20}/> : <AiOutlineMenu size={20} />}
         </div>
-        <ul className={nav ? 'fixed left-0 top-0 w-[60%] h-full border-r border-r-gray-900 bg-[#000300] ease-in-out duration-500' : 'ease-in-out duration-500 fixed left-[-100%]'}>
-            <li className='p-4 border-b border-gray-600'>About</li>
-            <li className='p-4 border-b border-gray-600'><Link>Products</Link></li>
-            <li className='p-4 border-b border-gray-600'>Contact</li>
+        <ul className={nav ? 'fixed left-0 top-16 w-full h-64 bg-white/80 backdrop-blur-lg flex flex-col justify-center items-center text-lg gap-4 py-12 px-4 ease-in-out duration-500' : 'ease-in-out duration-500 fixed top-16  bg-white/80 backdrop-blur-lg flex flex-col justify-center items-center text-lg gap-4 py-12 px-4 left-[-100%]'}>
+          <li className='group relative duration-150 ease-in-out tracking-wide cursor-pointer'><Link to="about" spy={true} smooth={true}  duration={500}>About</Link></li>
+          <li className='group relative duration-150 ease-in-out tracking-wide cursor-pointer'><Link to="gallery" spy={true} smooth={true} duration={500}>Works</Link></li>
+          <li className='group relative duration-150 ease-in-out tracking-wide cursor-pointer'><Link to="clients" spy={true} smooth={true}  duration={500}>Clients</Link></li>
+          <li className='group relative duration-150 ease-in-out traking-wide cursor-pointer'><Link to="contact" spy={true} smooth={true}  duration={500}>Contact</Link></li>
         </ul>
       </nav>
      
