@@ -13,17 +13,17 @@ const Navbar = () => {
 
   return (
     <div className='flex fixed top-0 z-50 bg-white/80 backdrop-blur-lg  w-full px-4 border-t-4 border-theme-blue1'>
-      <nav class="justify-between w-full flex items-center h-24 max-w-7xl mx-auto">
+      <nav className="justify-between w-full flex items-center h-24 max-w-7xl mx-auto">
         <ul className='hidden md:flex gap-4 items-center justify-start text-theme-gray2 basis-1/3'>
             <li className='hover:text-black duration-150 ease-in-out cursor-pointer'><TfiInstagram size={20} /></li>
             <li className='hover:text-black duration-150 ease-in-out cursor-pointer'><PiFacebookLogoLight size={27} /></li>
         </ul>   
         <Link to="hero" spy={true} smooth={true} offset={50} duration={500}><span className='basis-1/3 cursor-pointer w-full text-3xl font-semibold text-theme-gray cormorant'>SpiritStone</span></Link>
         <ul className='hidden md:flex items-center justify-end text-theme-gray2 gap-4 basis-1/3'>
-          <li className='group relative hover:text-black duration-150 ease-in-out tracking-wide cursor-pointer'><Link to="about" spy={true} smooth={true}  duration={500}>About</Link><span class="absolute bottom-0 left-0 w-0 group-hover:w-full border-t-2 border-theme-blue1 transition-all duration-150"></span></li>
-          <li className='group relative hover:text-black duration-150 ease-in-out tracking-wide cursor-pointer'><Link to="gallery" spy={true} smooth={true} duration={500}>Works</Link><span class="absolute bottom-0 left-0 w-0 group-hover:w-full border-t-2 border-theme-blue1 transition-all duration-150"></span></li>
-          <li className='group relative hover:text-black duration-150 ease-in-out tracking-wide cursor-pointer'><Link to="clients" spy={true} smooth={true}  duration={500}>Clients</Link><span class="absolute bottom-0 left-0 w-0 group-hover:w-full border-t-2 border-theme-blue1 transition-all duration-150"></span></li>
-          <li className='group relative hover:text-black duration-150 ease-in-out traking-wide cursor-pointer'><Link to="contact" spy={true} smooth={true}  duration={500}>Contact</Link><span class="absolute bottom-0 left-0 w-0 group-hover:w-full border-t-2 border-theme-blue1 transition-all duration-150"></span></li>
+          <li className='group relative hover:text-black duration-150 ease-in-out tracking-wide cursor-pointer'><Link to="about" spy={true} smooth={true}  duration={500}>About</Link><span className="absolute bottom-0 left-0 w-0 group-hover:w-full border-t-2 border-theme-blue1 transition-all duration-150"></span></li>
+          <li className='group relative hover:text-black duration-150 ease-in-out tracking-wide cursor-pointer'><Link to="gallery" spy={true} smooth={true} duration={500}>Works</Link><span className="absolute bottom-0 left-0 w-0 group-hover:w-full border-t-2 border-theme-blue1 transition-all duration-150"></span></li>
+          <li className='group relative hover:text-black duration-150 ease-in-out tracking-wide cursor-pointer'><Link to="clients" spy={true} smooth={true}  duration={500}>Clients</Link><span className="absolute bottom-0 left-0 w-0 group-hover:w-full border-t-2 border-theme-blue1 transition-all duration-150"></span></li>
+          <li className='group relative hover:text-black duration-150 ease-in-out traking-wide cursor-pointer'><Link to="contact" spy={true} smooth={true}  duration={500}>Contact</Link><span className="absolute bottom-0 left-0 w-0 group-hover:w-full border-t-2 border-theme-blue1 transition-all duration-150"></span></li>
         </ul>
         <div onClick={handleNav} className='block md:hidden z-50'>
             {nav ? <AiOutlineClose size={20}/> : <AiOutlineMenu size={20} />}

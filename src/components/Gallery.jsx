@@ -6,7 +6,7 @@ import { Pagination, Navigation } from 'swiper/modules';
 const Gallery = () => {
   return (
     <section id="gallery" className='w-full pb-24 px-4'>
-      <h2 class="w-full text-center text-3xl sm:text-5xl cormorant font-bold">Our Works</h2>
+      <h2 className="w-full text-center text-3xl sm:text-5xl cormorant font-bold">Our Works</h2>
       <Swiper
         className="max-w-7xl mx-auto w-full px-12 py-8"
         spaceBetween={50}

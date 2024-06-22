@@ -10,9 +10,9 @@ const About = () => {
   return (
     <div className='w-full bg-white py-24 px-4' id="about">
       <div className='max-w-7xl w-full mx-auto flex gap-12 flex-col'>
-        <h2 class="w-full text-center text-3xl sm:text-5xl cormorant font-bold">A gem cutting family business since 1995</h2>
+        <h2 className="w-full text-center text-3xl sm:text-5xl cormorant font-bold">A gem cutting family business since 1995</h2>
         <div className='w-full grid grid-cols-1 md:grid-cols-3 gap-8 items-start justify-between'>
-          <p class="col-span-full lg:text-lg">With our deep understanding of each gemstone&apos;s intricacies, we proudly offer an extensive selection available for your order. We collaborate closely with companies and individual clients with a personal touch.</p>
+          <p className="col-span-full lg:text-lg">With our deep understanding of each gemstone&apos;s intricacies, we proudly offer an extensive selection available for your order. We collaborate closely with companies and individual clients with a personal touch.</p>
           <div className="flex flex-col gap-2 items-center"> 
             <GiGems size={45} className="text-theme-blue2"/>
             <h3 className="text-xl sm:text-2xl text-center">Gemstone Cutting</h3>
