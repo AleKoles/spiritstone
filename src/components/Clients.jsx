@@ -2,7 +2,7 @@ import React from 'react';
 import kuz from '../assets/kuz.webp';
 import lviv from '../assets/lviv.jpg';
 import zevs from '../assets/zevs.png';
-import buz from '../assets/buz.gif';
+
 
 const Clients = () => {
   return (
