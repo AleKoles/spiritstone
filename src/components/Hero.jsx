@@ -1,8 +1,6 @@
 import React from 'react';
-import videoMP4 from '../assets/desktopHeader.mp4';
-import videoWEBM from '../assets/desktopHeader.webm';
-import mobileVideoMP4 from '../assets/mobileHeader.mp4';
-import mobileVideoWEBM from '../assets/mobileHeader.webm';
+import headerDesktop from '../assets/headerWide.mp4';
+import headerMobile from '../assets/headerMobile.mp4';
 import fallbackImage from '../assets/diamond.jpg';
 import { Link } from 'react-scroll';
 
@@ -17,8 +15,8 @@ const Hero = () => {
           muted 
           loop 
           poster={fallbackImage}>
-          <source src={videoWEBM} ></source>
-          <source src={videoMP4} ></source>
+          <source src={headerDesktop} ></source>
+       
           Your browser does not support the video tag.
         </video>
         <video 
@@ -27,12 +25,12 @@ const Hero = () => {
           muted 
           loop 
           poster={fallbackImage}>
-          <source src={mobileVideoWEBM} />
-          <source src={mobileVideoMP4} />
+          <source src={headerMobile} />
+        
          
           Your browser does not support the video tag.
         </video>
-        <div className="absolute bg-black/20 z-20 bottom-0 left-0 h-full w-full flex flex-col justify-end items-center">
+        <div className="absolute bg-black/10 z-20 bottom-0 left-0 h-full w-full flex flex-col justify-end items-center">
           <div className="text-white flex flex-col gap-8 px-4 w-full sm:w-1/2 pb-4 sm:pb-8 xl:pb-16">
             <h1 className="cormorant text-5xl sm:text-6xl text-center">SpiritStone</h1>
             <p className="text-center text-base sm:text-lg">Making Elegance through Artistry</p>
