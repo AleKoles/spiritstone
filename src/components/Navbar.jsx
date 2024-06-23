@@ -13,7 +13,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className='flex fixed top-0 z-50 bg-white/80 backdrop-blur-lg  w-full px-4 border-t-4 border-theme-blue1'>
+    <div className='flex fixed top-0 z-50 bg-white/90 backdrop-blur-lg  w-full px-4 border-t-4 border-theme-blue1'>
       <nav className="justify-between w-full flex items-center h-24 max-w-7xl mx-auto">
         <ul className='hidden md:flex gap-4 items-center justify-start text-theme-gray2 basis-1/3'>
             <li className='hover:text-black duration-150 ease-in-out cursor-pointer'><TfiInstagram size={20} /></li>
@@ -29,7 +29,7 @@ const Navbar = () => {
         <div onClick={handleNav} className='block md:hidden z-50'>
             {nav ? <AiOutlineClose size={20}/> : <AiOutlineMenu size={20} />}
         </div>
-        <ul className={nav ? 'fixed left-0 top-16 w-full h-64 bg-white/80 backdrop-blur-lg flex flex-col justify-center items-center text-lg gap-4 py-12 px-4 ease-in-out duration-500' : 'ease-in-out duration-500 fixed top-16  bg-white/80 backdrop-blur-lg flex flex-col justify-center items-center text-lg gap-4 py-12 px-4 left-[-100%]'}>
+        <ul className={nav ? 'fixed left-0 top-24 w-full h-64 bg-white/90 backdrop-blur-lg flex flex-col justify-center items-center text-xl gap-4 py-12 px-4 ease-in-out duration-500' : 'ease-in-out duration-500 fixed top-24  bg-white/80 backdrop-blur-lg flex flex-col justify-center items-center text-lg gap-4 py-12 px-4 left-[-100%]'}>
           <li className='group relative duration-150 ease-in-out tracking-wide cursor-pointer'><Link to="about" spy={true} smooth={true}  duration={500}>About</Link></li>
           <li className='group relative duration-150 ease-in-out tracking-wide cursor-pointer'><Link to="gallery" spy={true} smooth={true} duration={500}>Works</Link></li>
           <li className='group relative duration-150 ease-in-out tracking-wide cursor-pointer'><Link to="clients" spy={true} smooth={true}  duration={500}>Clients</Link></li>
