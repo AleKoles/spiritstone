@@ -13,7 +13,7 @@ const Footer = () => {
     <section id="contact" className='w-full bg-theme-gray1 pb-8'>
       <div className="max-w-7xl mx-auto py-12 px-4 grid md:grid-cols-3 gap-8 items-start">
       <div className="flex flex-col gap-2">
-         <Link to="hero" className="w-full mx-auto text-center md:text-start" spy={true} smooth={true} offset={50} duration={500}><div className='basis-1/3 cursor-pointer w-full text-3xl font-semibold cormorant flex items-center justify-center md:justify-start gap-1'><span>Spirit</span><span><img src={logo} className="h-8"/></span><span>Stone</span></div></Link>
+         <Link to="hero" className="w-full mx-auto text-center md:text-start" spy={true} smooth={true} offset={50} duration={500}><div className='basis-1/3 cursor-pointer w-full text-3xl font-semibold cormorant flex items-center justify-center md:justify-start gap-1'><span>Spirit</span><span><img src={logo} className="h-8" alt="spiritstone logo"/></span><span>Stone</span></div></Link>
          <p className="text-theme-gray2 text-center md:text-start">Making Elegance through Artistry</p>
       </div>
       <div className="flex flex-col gap-2">

@@ -1,5 +1,4 @@
 import React from 'react';
-import Diamond from '../assets/diamond.jpg'; 
 import shop from '../assets/shop.png';
 import craft from '../assets/craft.png';
 import gems1 from '../assets/gems1.png';
@@ -39,7 +38,7 @@ const Gallery = () => {
         </SwiperSlide>
         <SwiperSlide className="rounded-lg px-12 py-8">
         <div className="w-full flex flex-col gap-8 justify-center items-center">
-            <img src={gems4} alt="diamond" className="w-full lg:w-2/3 mx-auto rounded-lg"/>
+            <img src={gems4} alt="gems" className="w-full lg:w-2/3 mx-auto rounded-lg"/>
             <h3 className="text-theme-blue2 text-xl sm:text-2xl text-center">Lorem ipsum</h3>
             <p className="lg:text-lg text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
           </div>
