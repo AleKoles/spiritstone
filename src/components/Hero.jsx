@@ -8,9 +8,9 @@ import { Link } from 'react-scroll';
 const Hero = () => {
   return (
     <div className='text-theme-gray' id="hero">
-      <div className="relative w-full md:w-10/12 mx-auto">
+      <div className="relative w-full">
         <video 
-          className="mt-24 hidden sm:block"
+          className="w-full object-cover hidden sm:block"
           autoPlay 
           muted 
           loop 
@@ -20,7 +20,7 @@ const Hero = () => {
           Your browser does not support the video tag.
         </video>
         <video 
-          className="mt-24 sm:hidden"
+          className="mt-24 w-full object-cover sm:hidden"
           autoPlay 
           muted 
           loop 

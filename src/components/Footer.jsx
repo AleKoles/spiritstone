@@ -19,16 +19,28 @@ const Footer = () => {
       <div className="flex flex-col gap-2">
         <p className="text-theme-gray2 uppercase text-center">Contact us</p>
         <ul className='flex gap-4 items-center justify-center text-theme-blue2 basis-1/3'>
-          <li className='hover:text-black duration-150 ease-in-out cursor-pointer'><PiWhatsappLogoLight size={27} /></li>
-          <li className='hover:text-black duration-150 ease-in-out cursor-pointer'><PiTelegramLogoLight size={27} /></li>
-          <li className='hover:text-black duration-150 ease-in-out cursor-pointer'><GoMail size={25} /></li>
+        <li className='hover:text-black duration-150 ease-in-out cursor-pointer'>
+          <a href="https://t.me/myrons" target="_blank" rel="noopener noreferrer" aria-label="Telegram">
+            <PiTelegramLogoLight size={27} />
+          </a>
+        </li>
+        <li className='hover:text-black duration-150 ease-in-out cursor-pointer'>
+          <a href="https://wa.me/380931070489" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
+            <PiWhatsappLogoLight size={27} />
+          </a>
+        </li>
+        <li className='hover:text-black duration-150 ease-in-out cursor-pointer'>
+          <a href="mailto:spiritstone1995@gmail.com" rel="noopener noreferrer" aria-label="Email">
+            <GoMail size={25} />
+          </a>
+        </li>
+
         </ul>
       </div>
       <div className="flex flex-col gap-2">
         <p className="text-theme-gray2 text-center uppercase">Follow us</p>
         <ul className='flex gap-4 items-center justify-center text-theme-blue2 basis-1/3'>
-          <li className='hover:text-black duration-150 ease-in-out cursor-pointer'><TfiInstagram size={20} /></li>
-          <li className='hover:text-black duration-150 ease-in-out cursor-pointer'><PiFacebookLogoLight size={27} /></li>
+          <li className='hover:text-black duration-150 ease-in-out cursor-pointer'><a href="https://www.instagram.com/myronenko_arkenstone?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><TfiInstagram size={20} /></a></li>
         </ul>
       </div>
       

@@ -16,8 +16,7 @@ const Navbar = () => {
     <div className='flex fixed top-0 z-50 bg-white/90 backdrop-blur-lg  w-full px-4 border-t-4 border-theme-blue1'>
       <nav className="justify-between w-full flex items-center h-24 max-w-7xl mx-auto">
         <ul className='hidden md:flex gap-4 items-center justify-start text-theme-gray2 basis-1/3'>
-            <li className='hover:text-black duration-150 ease-in-out cursor-pointer'><TfiInstagram size={20} /></li>
-            <li className='hover:text-black duration-150 ease-in-out cursor-pointer'><PiFacebookLogoLight size={27} /></li>
+            <li className='hover:text-black duration-150 ease-in-out cursor-pointer'><a href="https://www.instagram.com/myronenko_arkenstone?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" rel="noopener noreferrer" aria-label="Instagram" target="_blank"><TfiInstagram size={20} /></a></li>
         </ul>   
         <Link to="hero" spy={true} smooth={true} offset={50} duration={500}><span className='basis-1/3 cursor-pointer w-full text-3xl font-semibold text-theme-gray cormorant flex items-center gap-1'>Spirit<span><img src={logo} alt="spiritstone logo" className="h-8"/></span>Stone</span></Link>
         <ul className='hidden md:flex items-center justify-end text-theme-gray2 gap-4 basis-1/3'>
