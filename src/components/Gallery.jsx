@@ -16,7 +16,7 @@ const Gallery = () => {
       <div className="rounded-lg px-12 py-8">
           <div className="relative w-full flex flex-col gap-8 justify-center items-center">
               <img src={gems2} alt="diamond" className="w-full rounded-lg"/>
-              <div className="bg-theme-gray1 z-10  rounded-lg w-5/6 -mt-16 p-4">
+              <div className="bg-theme-gray1 z-10 rounded-lg w-5/6 -mt-16 p-4">
                 <h3 className="text-theme-blue2 text-xl sm:text-2xl text-center">Lorem ipsum</h3>
                 <p className="lg:text-lg text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
               </div>
@@ -25,7 +25,7 @@ const Gallery = () => {
           <div className="rounded-lg px-12 py-8">
           <div className="relative w-full flex flex-col gap-8 justify-center items-center">
               <img src={gems3} alt="diamond" className="w-full rounded-lg"/>
-              <div className="bg-theme-gray1 z-10  rounded-lg w-5/6 -mt-16 p-4">
+              <div className="bg-theme-gray1 z-10 rounded-lg w-5/6 -mt-16 p-4">
                 <h3 className="text-theme-blue2 text-xl sm:text-2xl text-center">Lorem ipsum</h3>
                 <p className="lg:text-lg text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
               </div>
@@ -78,42 +78,42 @@ const Gallery = () => {
         onSlideChange={() => console.log('slide change')}
         onSwiper={(swiper) => console.log(swiper)}
       >
-        <SwiperSlide className="rounded-lg px-4 lg:px-12 py-8">
+        <SwiperSlide className="rounded-lg px-4 py-8">
           <div className="w-full flex flex-col gap-8 justify-center items-center">
             <img src={gems2} alt="diamond" className="w-full lg:w-2/3 mx-auto rounded-lg"/>
             <h3 className="text-theme-blue2 text-xl sm:text-2xl text-center">Lorem ipsum</h3>
             <p className="lg:text-lg text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing.</p>
           </div>
         </SwiperSlide>
-        <SwiperSlide className="rounded-lg px-12 py-8">
+        <SwiperSlide className="rounded-lg px-4 py-8">
         <div className="w-full flex flex-col gap-8 justify-center items-center">
             <img src={gems3} alt="diamond" className="w-full lg:w-2/3 mx-auto rounded-lg"/>
             <h3 className="text-theme-blue2 text-xl sm:text-2xl text-center">Lorem ipsum</h3>
             <p className="lg:text-lg text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
           </div>
         </SwiperSlide>
-        <SwiperSlide className="rounded-lg px-12 py-8">
+        <SwiperSlide className="rounded-lg px-4 py-8">
         <div className="w-full flex flex-col gap-8 justify-center items-center">
             <img src={gems4} alt="gems" className="w-full lg:w-2/3 mx-auto rounded-lg"/>
             <h3 className="text-theme-blue2 text-xl sm:text-2xl text-center">Lorem ipsum</h3>
             <p className="lg:text-lg text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
           </div>
         </SwiperSlide>
-        <SwiperSlide className="rounded-lg px-12 py-8">
+        <SwiperSlide className="rounded-lg px-4 py-8">
         <div className="w-full flex flex-col gap-8 justify-center items-center">
             <img src={gems1} alt="diamond" className="w-full lg:w-2/3 mx-auto rounded-lg"/>
             <h3 className="text-theme-blue2 text-xl sm:text-2xl text-center">Lorem ipsum</h3>
             <p className="lg:text-lg text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
           </div>
         </SwiperSlide>
-        <SwiperSlide className="rounded-lg px-12 py-8">
+        <SwiperSlide className="rounded-lg px-4 py-8">
         <div className="w-full flex flex-col gap-8 justify-center items-center">
             <img src={craft} alt="diamond" className="w-full lg:w-2/3 mx-auto rounded-lg"/>
             <h3 className="text-theme-blue2 text-xl sm:text-2xl text-center">Lorem ipsum</h3>
             <p className="lg:text-lg text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
           </div>
         </SwiperSlide>
-        <SwiperSlide className="rounded-lg px-12 py-8">
+        <SwiperSlide className="rounded-lg px-4 py-8">
         <div className="w-full flex flex-col gap-8 justify-center items-center">
             <img src={shop} alt="diamond" className="w-full lg:w-2/3 mx-auto rounded-lg"/>
             <h3 className="text-theme-blue2 text-xl sm:text-2xl text-center">Lorem ipsum</h3>

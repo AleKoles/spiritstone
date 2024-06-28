@@ -2,7 +2,7 @@ import React from 'react';
 import logo from '../assets/logo.png'; 
 import { Link } from 'react-scroll';
 import { TfiInstagram } from "react-icons/tfi";
-import { PiWhatsappLogoLight, PiTelegramLogoLight } from "react-icons/pi";
+import { PiPhoneCallLight, PiWhatsappLogoLight, PiTelegramLogoLight } from "react-icons/pi";
 import { GoMail } from "react-icons/go";
 import ScrollToTop from 'react-scroll-up';
 import { SlArrowUp } from "react-icons/sl";
@@ -34,7 +34,11 @@ const Footer = () => {
             <GoMail size={25} />
           </a>
         </li>
-
+        <li className='hover:text-black duration-150 ease-in-out cursor-pointer'>
+          <a href="tel:+380931070489" rel="noopener noreferrer" aria-label="Mobile Phone">
+            <PiPhoneCallLight size={25} />
+          </a>
+        </li>
         </ul>
       </div>
       <div className="flex flex-col gap-2">
