@@ -3,7 +3,6 @@ import logo from '../assets/logo.png';
 import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai';
 import { Link } from 'react-scroll';
 import { TfiInstagram } from "react-icons/tfi";
-import { PiFacebookLogoLight } from "react-icons/pi";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);

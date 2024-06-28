@@ -2,7 +2,7 @@ import React from 'react';
 import logo from '../assets/logo.png'; 
 import { Link } from 'react-scroll';
 import { TfiInstagram } from "react-icons/tfi";
-import { PiFacebookLogoLight, PiWhatsappLogoLight, PiTelegramLogoLight } from "react-icons/pi";
+import { PiWhatsappLogoLight, PiTelegramLogoLight } from "react-icons/pi";
 import { GoMail } from "react-icons/go";
 import ScrollToTop from 'react-scroll-up';
 import { SlArrowUp } from "react-icons/sl";
