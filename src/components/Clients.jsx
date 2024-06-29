@@ -3,7 +3,6 @@ import kuz from '../assets/kuz.webp';
 import lviv from '../assets/lviv.jpg';
 import zevs from '../assets/zevs.png';
 
-
 const Clients = () => {
   return (
     <section id="clients" className='w-full pb-24 px-4 flex flex-col max-w-7xl mx-auto gap-12'>
@@ -18,7 +17,7 @@ const Clients = () => {
         <a href="https://zoloto.lviv.ua/" target="_blank" rel="noreferrer" className="grayscale hover:grayscale-0 duration-150 ease-in-out">
           <img src={ lviv } className="h-12" alt="Lviv Jewelery Factory"/>
         </a>
-        <a href="https://www.zevsjewelry.com.ua/" target="_blank" rel="noreferrer" className="grayscale hover:grayscale-0 duration-150 ease-in-out">
+        <a href="https://www.zevsjewelry.com.ua/" target="_blank" rel="noreferrer" className="grayscale hover:grayscale-0 duration-150 ease-in-out" >
           <img src={ zevs } className="h-12" alt="ZEVS Jewelry"/>
         </a>
 

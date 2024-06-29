@@ -11,7 +11,7 @@ const About = () => {
 
   useEffect(() => {
     gsap.fromTo(cardsRef.current, 
-      { x: -200, opacity: 0 },  // Initial state
+      { x: -200, opacity: 0 },  
       { 
         x: 0, 
         opacity: 1, 
