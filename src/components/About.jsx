@@ -60,6 +60,7 @@ const About = () => {
             <p className='lg:text-lg text-center py-2'>We offer innovative designs and expert craftsmanship in jewelry creation using client&apos;s or our selected gemstones.</p>
           </div>
         </div>
+        
       </div>
     </div>
   );
