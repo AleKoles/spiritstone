@@ -14,11 +14,15 @@ const Footer = () => {
     <div id="contact">
        <div className="max-w-7xl mx-auto py-12 px-4 bg-white">
        <h2 className="w-full text-center text-3xl sm:text-5xl cormorant font-bold pb-12">Contact Us</h2>
-        <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
-          <img src={family} alt="Myronenko Family" className="w-full lg:w-2/3 mx-auto rounded-lg"/>
-          <div class="lg:col-span-2">
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+          <div className="flex flex-col gap-2">
+             <img src={family} alt="Myronenko Family" className="w-full lg:w-64 mx-auto rounded-lg"/> 
+             <p className="text-theme-gray2 text-sm w-full lg:w-64 mx-auto">The Myronenko Family (Alex, Vira, Ihor and Eugenia Myronenko)</p>
+          </div>
+          
+          <div className="lg:col-span-2">
             
-          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+          <p>SpiritStone is a Ukrainian family business, now in its second generation. Our family continues to create magic working with all kinds of jewels, constantly improving our skills and incorporating new technologies into the work process. An important component of our success is the high level of professionalism we’ve maintained for over 25 years, along with the trust of our clients.</p>
             <ul className='flex pt-8 gap-4 items-center  text-theme-blue2 basis-1/3'>
             <li className='hover:text-black duration-150 ease-in-out cursor-pointer'>
               <a href="https://t.me/myrons" target="_blank" rel="noopener noreferrer" aria-label="Telegram">
@@ -45,7 +49,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <section  className='w-full pb-8 bg-theme-gray1'>
+      <section className='w-full pb-8 bg-theme-gray1'>
       
         <div className="max-w-7xl mx-auto py-12 px-4 grid md:grid-cols-3 gap-8 items-start">
         <div className="flex flex-col gap-2">
