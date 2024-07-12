@@ -1,4 +1,4 @@
-import React, { useRef, useEffect, useState } from 'react';
+import React from 'react';
 import headerDesktop from '../assets/headerWide.mp4';
 import headerMobile from '../assets/headerMobile.mp4';
 import fallbackImageM from '../assets/headerMobile.webp';
@@ -6,55 +6,36 @@ import fallbackImageD from '../assets/headerWide.webp';
 import { Link } from 'react-scroll';
 
 const Hero = () => {
-  const videoRef = useRef(null);
-  const [loaded, setLoaded] = useState(false);
-
-  useEffect(() => {
-    const observer = new IntersectionObserver(entries => {
-      entries.forEach(entry => {
-        if (entry.isIntersecting) {
-          setLoaded(true);
-          observer.unobserve(entry.target);
-        }
-      });
-    }, { threshold: 0.5 }); 
-    observer.observe(videoRef.current);
-
-    return () => {
-      observer.disconnect();
-    };
-  }, []);
-
   return (
     <div className='text-theme-gray' id="hero">
       <div className="relative w-full">
-        <video
-          ref={videoRef}
-          className="w-full aspect-video mt-12 object-cover hidden sm:block"
-          autoPlay
-          muted
-          loop
-          playsInline 
-          disableRemotePlayback
-          preload={loaded ? "auto" : "metadata"} 
-          poster={fallbackImageD}
-        >
-          <source src={headerDesktop} type="video/mp4" /> 
-          Your browser does not support the video tag.
-        </video>
-        <video
-          className="mt-24 w-full aspect-square object-cover sm:hidden"
-          autoPlay
-          muted
-          loop
-          playsInline 
-          disableRemotePlayback
-          preload={loaded ? "auto" : "metadata"} 
-          poster={fallbackImageM}
-        >
-          <source src={headerMobile} type="video/mp4" /> 
-          Your browser does not support the video tag.
-        </video>
+      <video
+  className="w-full aspect-video mt-12 object-cover hidden sm:block"
+  autoPlay
+  muted
+  loop
+  playsInline 
+  disableRemotePlayback
+  preload="auto" 
+  poster={fallbackImageD}
+>
+  <source src={headerDesktop} type="video/mp4" /> 
+  Your browser does not support the video tag.
+</video>
+<video
+  className="mt-24 w-full aspect-square object-cover sm:hidden"
+  autoPlay
+  muted
+  loop
+  playsInline 
+  disableRemotePlayback
+  preload="auto" 
+  poster={fallbackImageM}
+>
+  <source src={headerMobile} type="video/mp4" /> 
+  Your browser does not support the video tag.
+</video>
+
         <div className="absolute bg-black/10 z-20 bottom-0 left-0 h-full w-full flex flex-col justify-end items-center">
           <div className="text-white flex flex-col gap-8 px-4 w-full sm:w-1/2 pb-4 sm:pb-8 xl:pb-28">
             <h1 className="cormorant text-5xl sm:text-6xl text-center">SpiritStone</h1>
@@ -77,4 +58,3 @@ const Hero = () => {
 };
 
 export default Hero;
-
