@@ -23,7 +23,7 @@ const Hero = () => {
           Your browser does not support the video tag.
         </video>
         <video
-          className="mt-24 w-full object-cover sm:hidden"
+          className="mt-24 w-full h-auto object-cover sm:hidden"
           autoPlay
           muted
           loop
