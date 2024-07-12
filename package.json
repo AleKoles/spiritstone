@@ -15,15 +15,17 @@
     "react-scroll": "^1.9.0",
     "react-scroll-up": "^1.4.0",
     "react-typed": "^2.0.12",
+    "sitemap": "^8.0.0",
     "swiper": "^11.1.4",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
+  "start": "react-scripts start",
+  "build": "react-scripts build",
+  "test": "react-scripts test",
+  "eject": "react-scripts eject",
+  "generate-sitemap": "node generate-sitemap.js"
+},
   "eslintConfig": {
     "extends": [
       "react-app",
