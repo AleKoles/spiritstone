@@ -1,6 +1,6 @@
 import React from 'react';
 import logo from '../assets/logo.png'; 
-import family from '../assets/MyronenkoFamily.jpg';
+import family from '../assets/MyronenkoFamily.webp';
 import { Link } from 'react-scroll';
 import { TfiInstagram } from "react-icons/tfi";
 import { PiPhoneCallLight, PiWhatsappLogoLight, PiTelegramLogoLight } from "react-icons/pi";

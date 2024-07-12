@@ -1,11 +1,11 @@
 import React from 'react';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
-import shop from '../assets/shop.jpg';
-import craft from '../assets/craft.jpg';
-import gems1 from '../assets/gems1.jpg';
-import gems2 from '../assets/gems2.jpg';
-import gems3 from '../assets/gems3.jpg';
-import gems4 from '../assets/gems4.jpg';
+import shop from '../assets/shop.webp';
+import craft from '../assets/craft.webp';
+import gems1 from '../assets/gems1.webp';
+import gems2 from '../assets/gems2.webp';
+import gems3 from '../assets/gems3.webp';
+import gems4 from '../assets/gems4.webp';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Pagination, Navigation } from 'swiper/modules';
 

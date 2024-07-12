@@ -1,7 +1,7 @@
 import React from 'react';
 import kuz from '../assets/kuz.webp';
-import lviv from '../assets/lviv.jpg';
-import zevs from '../assets/zevs.png';
+import lviv from '../assets/lviv.webp';
+import zevs from '../assets/zevs.webp';
 
 const Clients = () => {
   return (

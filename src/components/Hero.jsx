@@ -1,8 +1,8 @@
 import React from 'react';
 import headerDesktop from '../assets/headerWide.mp4';
 import headerMobile from '../assets/headerMobile.mp4';
-import fallbackImageM from '../assets/headerMobile.jpg';
-import fallbackImageD from '../assets/headerWide.jpg';
+import fallbackImageM from '../assets/headerMobile.webp';
+import fallbackImageD from '../assets/headerWide.webp';
 import { Link } from 'react-scroll';
 
 const Hero = () => {
