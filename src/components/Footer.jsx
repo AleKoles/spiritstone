@@ -91,6 +91,7 @@ const Footer = () => {
 
         </div>
         <p className="cols-span-full w-full text-center text-theme-gray2 text-sm">© 2024 SpiritStone</p>
+        <p className="cols-span-full w-full text-center text-theme-gray2 text-xs mt-2">Website created by <a class="decoration underline" target="_blank" rel="noopener noreferrer" href="https://beefybee.com/">BeefyBee</a></p>
         <ScrollToTop showUnder={160}>
           <div className="text-theme-blue2 hover:text-theme-gray2 duration-150 ease-in-out flex flex-col">
             <SlArrowUp className="-mt-4" size={27}/>
